@@ -141,11 +141,9 @@ h3 {
 @media screen and (max-width: 600px) {
   .search-container {
     font-size: 14px;
-    width: 65%;
+    width: 85%;
   }
-  .search-container input {
-    width: 100%
-  }
+  
   #show-recipe {
     margin-bottom: 2em;
   }
