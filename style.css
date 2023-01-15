@@ -115,6 +115,7 @@ img {
   top: 2em;
   left: 90%;
   border-radius: 0.3em;
+  color: black;
 }
 
 #hide-recipe:hover {
