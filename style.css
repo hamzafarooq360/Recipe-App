@@ -141,7 +141,7 @@ h3 {
 @media screen and (max-width: 600px) {
   .search-container {
     font-size: 14px;
-    width: 80%;
+    width: 75%;
   }
   
   #show-recipe {
