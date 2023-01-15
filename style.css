@@ -39,6 +39,7 @@ body {
   border: none;
   font-weight: 600;
   border-radius: 0.3em;
+  color: black;
 }
 
 .search-container button:hover {
@@ -83,6 +84,7 @@ img {
   cursor: pointer;
   transform: scale(1.15);
   transition: all 400ms ease;
+  color: black;
 }
 
 #recipe {
@@ -139,7 +141,7 @@ h3 {
 }
 @media screen and (max-width: 600px) {
   .container {
-    font-size: 12px;
+    font-size: 11px;
   }
   #show-recipe {
     margin-bottom: 2em;
