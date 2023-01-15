@@ -139,7 +139,7 @@ h3 {
 }
 @media screen and (max-width: 600px) {
   .container {
-    font-size: 14px;
+    font-size: 12px;
   }
   #show-recipe {
     margin-bottom: 2em;
