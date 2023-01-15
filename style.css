@@ -138,4 +138,19 @@ h3 {
   margin-top: 1.8em;
   color: #202030;
 }
+@media screen and (max-width: 320px) {
+  .search-container {
+    font-size: 14px;
+    width: 70%;
+  }
 
+  .search-container button {
+    font-size: 14px;
+    width: 14px;
+  }
+  
+  #show-recipe {
+    margin-bottom: 2em;
+  }
+
+}
