@@ -140,15 +140,15 @@ h3 {
 }
 @media screen and (max-width: 320px) {
   .search-container {
-    height: auto;
-    width: auto;
-    size: auto;
+    height: 70%;
+    width: 70%;
+    size: 70%;
   }
 
   .search-container button {
-    height: auto;
-    width: auto;
-    size: auto;
+    height: 70%;
+    width: 70%;
+    size: 70%;
   }
   
   #show-recipe {
