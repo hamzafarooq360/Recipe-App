@@ -139,8 +139,9 @@ h3 {
   color: #202030;
 }
 @media screen and (max-width: 600px) {
-  .container {
+  .search-container {
     font-size: 14px;
+    width: auto;
   }
   #show-recipe {
     margin-bottom: 2em;
