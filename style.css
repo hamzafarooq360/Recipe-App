@@ -7,14 +7,16 @@
 
 body {
   background-color: teal;
-  margin-top: 500px;
+  width: 100%;
+  height: 100%;
 }
 
 .container {
-  background-color: #ffffff;
+  background-color: teal;
+  border-radius: 3em;
   font-size: 16px;
-  padding: 3em 2.8em;
-  width: 90vw;
+  width: 100%;
+  height: 100%;
   max-width: 32em;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -22,9 +24,11 @@ body {
   top: 50%;
   border-radius: 0.6em;
 }
+
 .search-container {
   width: 100%;
   display: grid;
+  padding: 1.2em;
   grid-template-columns: 9fr 3fr;
   gap: 1.2em;
 }
@@ -34,6 +38,7 @@ body {
   border: none;
   outline: none;
   border-bottom: 2px solid #202030;
+  border-radius: 20px;
 }
 .search-container button {
   font-size: 1em;
@@ -42,6 +47,7 @@ body {
   font-weight: 600;
   border-radius: 0.3em;
   color: black;
+  border-color: black;
 }
 
 .search-container button:hover {
@@ -61,6 +67,7 @@ img {
   margin: -4.3em 0 0 0;
   text-align: center;
   padding: 0.6em 0;
+  
 }
 .details h2 {
   font-size: 1.2em;
@@ -81,7 +88,21 @@ img {
   border-radius: 0.3em;
   font-weight: 600;
   color: black;
+  
 }
+
+.mealdiv {
+  background-color: #ffffff;
+  font-size: 16px;
+  padding: 3em 2.8em;
+ 
+  max-width: 32em;
+  left: 50%;
+  top: 50%;
+  border-radius: 0.6em;
+  display: block;
+}
+
 
 .show-recipe:hover {
   cursor: pointer;
@@ -89,16 +110,18 @@ img {
   transition: all 400ms ease;
 }
 
-#recipe {
-  position: absolute;
+
+.recipe {
+  position: relative;
   background-color: #ffffff;
-  min-height: 100%;
+  min-height:fit-content;
   width: 100%;
   top: 0;
   left: 0;
   z-index: 2;
   border-radius: 0.6em;
   display: none;
+  max-width: 32em;
 }
 #recipe pre {
   white-space: pre-wrap;
@@ -144,6 +167,7 @@ h3 {
 .instructions {
   position: relative;
   display:flexbox;
+  max-width: 32em;
 }
 @media screen and (max-width: 600px) {
   .container {

@@ -28,7 +28,7 @@ searchBtn.addEventListener("click", () => {
 
           let mealDiv = document.createElement("div");
           mealDiv.classList.add("meal");
-          mealDiv.innerHTML = `<div>
+          mealDiv.innerHTML = `<div class="mealdiv">
             <img src=${meal.strMealThumb}>
             <div class="details">
                 <h2>${meal.strMeal}</h2>
@@ -37,7 +37,7 @@ searchBtn.addEventListener("click", () => {
             <div class="ingredient-con"></div>
             <div class="recipe">
                 <button class="hide-recipe">X</button>
-                <p class="instructions" style="display:block;">${meal.strInstructions}</p>
+                <p class="instructions">${meal.strInstructions}</p>
             </div>
             <button class="show-recipe">Show Recipe </button>
             </div>
